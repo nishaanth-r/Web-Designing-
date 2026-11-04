@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>shopping bill</h2>
+    <script>
+
+        let dress = Number(prompt("dress price :"));
+        let shoe = Number(prompt("shoe price :"));
+
+        let disc = Number(prompt("discount price :"));
+
+        let total = dress + shoe - disc;
+        document.write("FINAL AMOUNT : " + total);
+
+    </script>
+</body>
+
+</html>
